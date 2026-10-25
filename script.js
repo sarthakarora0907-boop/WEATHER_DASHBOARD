@@ -1,0 +1,1 @@
+// Weather Dashboard functionality will be added soon.
