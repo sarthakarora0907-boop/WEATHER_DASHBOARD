@@ -4,10 +4,13 @@
 
 🚀 **Live Demo:** [View Weather Dashboard](https://weatherdashboard-ten-gules.vercel.app/)
 
+
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-black?style=for-the-badge&logo=vercel)](https://weatherdashboard-ten-gules.vercel.app/)
+
 ![HTML5](https://img.shields.io/badge/HTML5-Structure-orange?style=flat&logo=html5)
 ![CSS3](https://img.shields.io/badge/CSS3-Styling-blue?style=flat&logo=css3)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-yellow?style=flat&logo=javascript)
+
 
 ---
 
