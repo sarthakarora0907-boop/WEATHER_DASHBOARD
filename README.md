@@ -4,13 +4,11 @@
 
 🚀 **Live Demo:** [View Weather Dashboard](https://weatherdashboard-ten-gules.vercel.app/)
 
-
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-black?style=for-the-badge&logo=vercel)](https://weatherdashboard-ten-gules.vercel.app/)
 
 ![HTML5](https://img.shields.io/badge/HTML5-Structure-orange?style=flat&logo=html5)
 ![CSS3](https://img.shields.io/badge/CSS3-Styling-blue?style=flat&logo=css3)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-yellow?style=flat&logo=javascript)
-
 
 ---
 
@@ -18,20 +16,20 @@
 
 Weather Dashboard is a web application that allows users to search for a city and view its current weather conditions along with a five-day forecast.
 
-The application retrieves weather data using the Open-Meteo API and presents it through a clean, user-friendly interface. It also includes light and dark themes and a recent-searches feature for a convenient user experience.
+The application retrieves weather data using the Open-Meteo API and presents it through a clean, user-friendly interface. It also includes light and dark themes and a recent-searches feature.
 
 ## ✨ Key Features
 
 - 🌍 **City Search:** Search for weather information by city name.
-- 🌡️ **Current Temperature:** Display the current temperature in Celsius.
-- 🌤️ **Weather Conditions:** View a description of current weather conditions.
+- 🌡️ **Current Temperature:** Display temperature in Celsius.
+- 🌤️ **Weather Conditions:** View current weather conditions.
 - 💧 **Humidity:** Display relative humidity.
 - 💨 **Wind Speed:** Display wind speed in km/h.
-- 📅 **Five-Day Forecast:** View daily weather conditions and maximum/minimum temperatures.
-- 🌙 **Dark and Light Mode:** Switch between two visual themes.
+- 📅 **Five-Day Forecast:** View daily conditions and maximum/minimum temperatures.
+- 🌙 **Dark and Light Mode:** Switch between visual themes.
 - 🕘 **Recent Searches:** Revisit up to five recently searched cities.
-- 💾 **Local Storage:** Save theme preferences and recent searches in the browser.
-- ⚠️ **Error Handling:** Handle invalid city searches and API request errors.
+- 💾 **Local Storage:** Save theme preferences and recent searches.
+- ⚠️ **Error Handling:** Handle invalid city searches and API errors.
 
 ## 🖥️ Screenshots
 
@@ -50,26 +48,26 @@ The application retrieves weather data using the Open-Meteo API and presents it 
 | HTML5 | Structure and layout |
 | CSS3 | Styling, responsive layout, and themes |
 | JavaScript | Application logic and interactivity |
-| Fetch API | Fetching data from external APIs |
-| Async/Await | Handling asynchronous operations |
+| Fetch API | Fetching external API data |
+| Async/Await | Asynchronous operations |
 | Open-Meteo API | City geocoding and weather data |
-| Local Storage | Saving theme and recent searches |
+| Local Storage | Saving preferences and searches |
 | Git & GitHub | Version control and source code hosting |
 | Vercel | Deployment and hosting |
 
 ## 🌐 API Integration
 
-This project uses the free Open-Meteo services.
+This project uses free Open-Meteo services.
 
-**1. Geocoding API**
+### 1. Geocoding API
 
 Converts city names into geographical coordinates.
 
 Documentation: [Open-Meteo Geocoding API](https://open-meteo.com/en/docs/geocoding-api)
 
-**2. Weather Forecast API**
+### 2. Weather Forecast API
 
-Retrieves current temperature, relative humidity, wind speed, weather codes, and a five-day forecast.
+Retrieves current temperature, humidity, wind speed, weather codes, and a five-day forecast.
 
 Documentation: [Open-Meteo Weather API](https://open-meteo.com/en/docs)
 
@@ -116,7 +114,7 @@ cd Weather_Dashboard
 code .
 ```
 
-Alternatively, open the folder manually in Visual Studio Code.
+Alternatively, open the project folder manually in Visual Studio Code.
 
 **4. Run the application**
 
@@ -124,7 +122,7 @@ Open `index.html` using the Live Server extension or open it directly in your br
 
 **5. Search for a city**
 
-Enter a city name and click **Search** to explore its current weather information and forecast.
+Enter a city name and click **Search** to view weather information and the forecast.
 
 An active internet connection is required to retrieve weather data.
 
